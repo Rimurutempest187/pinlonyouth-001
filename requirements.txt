@@ -1,2 +1,2 @@
-python-telegram-bot[job-scheduler]==21.3
+python-telegram-bot[job-queue]
 pytz
