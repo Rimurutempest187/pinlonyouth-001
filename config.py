@@ -6,15 +6,12 @@ Create by : PINLON-YOUTH
 import os
 
 # Bot Token from BotFather
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8035830285:AAEaLoGVLAo1my_dlZEqNm5ihT7bMw0C8Wc")
 
 # Admin User IDs (Telegram user IDs)
 # Add admin Telegram user IDs here
-ADMIN_IDS = [
-    # 123456789,  # Example: Add your Telegram user ID
-]
-
-# Data file paths
+ADMIN_IDS = [1812962224]
+             # Data file paths
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # Scheduled verse times (24-hour format, UTC)
